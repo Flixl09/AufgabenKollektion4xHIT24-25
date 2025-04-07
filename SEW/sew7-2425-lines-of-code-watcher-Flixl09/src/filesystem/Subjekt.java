@@ -1,0 +1,8 @@
+package filesystem;
+
+public interface Subjekt {
+
+    void attach(Observer o);
+    void detach(Observer o);
+    void notifyObservers();
+}

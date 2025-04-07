@@ -1,0 +1,15 @@
+INSERT INTO items (id, name, amount, collected) VALUES (1, 'Pineapples', 2, false);
+INSERT INTO items (id, name, amount, collected) VALUES (2, 'Mangoes', 3, false);
+INSERT INTO items (id, name, amount, collected) VALUES (3, 'Strawberries', 12, false);
+INSERT INTO items (id, name, amount, collected) VALUES (4, 'Bananas', 8, false);
+INSERT INTO items (id, name, amount, collected) VALUES (5, 'Grapes', 15, false);
+INSERT INTO items (id, name, amount, collected) VALUES (6, 'Granatapfel', 99, false);
+INSERT INTO items (id, name, amount, collected) VALUES (7, 'Blueberries', 7, false);
+INSERT INTO items (id, name, amount, collected) VALUES (8, 'Apfel', 1, false);
+INSERT INTO items (id, name, amount, collected) VALUES (9, 'Apfel', 1, false);
+INSERT INTO items (id, name, amount, collected) VALUES (10, 'Apfel', 3, false);
+INSERT INTO items (id, name, amount, collected) VALUES (11, 'Apfel', 1, false);
+INSERT INTO items (id, name, amount, collected) VALUES (12, 'Apfel', 1, false);
+INSERT INTO items (id, name, amount, collected) VALUES (13, 'Apfel', 1, false);
+INSERT INTO items (id, name, amount, collected) VALUES (14, 'Apfel', 1, false);
+ALTER TABLE items ALTER COLUMN id RESTART WITH (SELECT MAX(id) + 1 FROM items);

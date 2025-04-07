@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS items;
+
+CREATE TABLE items (
+    id INTEGER NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    amount INTEGER NOT NULL,
+    collected BOOLEAN NOT NULL,
+    PRIMARY KEY (id)
+);
