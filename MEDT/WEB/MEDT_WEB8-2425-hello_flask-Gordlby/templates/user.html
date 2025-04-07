@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}Login{% endblock title %}
+
+{% block content %}
+    <h1>Willkommen</h1>
+    {% for user in userlist.keys() %}
+
+    {% if userlist[user] %}
+    <p>Dear {{user}}</p>
+    {% else %}
+    <p>Hi, {{user}}</p>
+    {% endif %}
+        
+        
+    {% endfor %}
+{% endblock content %}
