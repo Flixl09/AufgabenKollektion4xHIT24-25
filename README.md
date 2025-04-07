@@ -1,5 +1,5 @@
 # Inhaltsverzeichnis
-- Namensgebung
+- [Namensgebung](https://github.com/Flixl09/AufgabenKollektion4xHIT24-25/tree/4BHIT#namensgebung)
 
 ## Namensgebung
 ### Fach
